@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container__img {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+.main-container-header {
+  display: flex;
+  height: 12vw;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.main-container-header__img1,
+.main-container-header__img2 {
+  width: 14%;
+  display: flex;
+  justify-content: center;
+}
+.main-container-preview {
+  height: 90vh;
+}
+.main-container-main_text {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.main-container-main_text__text {
+  font-size: 42px;
+  font-family: 'Circe Extra Bold', sans-serif;
+  font-weight: bold;
+  width: 50%;
+  text-transform: uppercase;
+}
+.main-container-main_text-discounts {
+  margin-top: 15px;
+  width: 50%;
+}
+.main-container-main_text-discounts-melons {
+  display: flex;
+  justify-content: space-evenly;
+}
+.main-container-main_text-discounts-melons-melon1__melon1,
+.main-container-main_text-discounts-melons-melon2__melon2,
+.main-container-main_text-discounts-melons-melon3__melon3
+{
+  width: 100%;
+}
+.main-container-main_text-discounts-melons-melon1 {
+  width: 40%;
+}
+.main-container-main_text-discounts-melons-melon2 {
+  width: 38%;
+}
+.main-container-main_text-discounts-melons-melon3 {
+  width: 24%;
+}
+.main-container-main_text-discounts-melons-melon1-discount1__main,
+.main-container-main_text-discounts-melons-melon2-discount2__main,
+.main-container-main_text-discounts-melons-melon3-discount3__main
+{
+  font-size: 42px;
+  font-family: 'Circe Extra Bold', sans-serif;
+}
+.main-container-main_text-discounts-melons-melon1-discount1__after,
+.main-container-main_text-discounts-melons-melon2-discount2__after,
+.main-container-main_text-discounts-melons-melon3-discount3__after
+{
+  font-size: 12px;
+  font-family: 'Circe Light', sans-serif;
+  font-weight: lighter;
+}
+.main-container-promo_code {
+  margin-top: 30px;
+  font-family: Monospaced, sans-serif;
+}
+.main-container-promo_code__promo-text {
+  margin-top: 15px;
+  font-size: 30px;
+  border: 3px dotted black;
+  height: 50px;
+  width: 275px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-container_discount-button {
+  height: 54px;
+  margin-top: 20px;
+  width: 220px;
+  border-radius: 30px;
+  border: none;
+  font-size: 17px;
+  background-color: #2ABE80;
+  color: white;
+  font-weight: lighter;
+}
+.main-container-description {
+  margin: 50px 40px;
+  width: 83.7%;
+}
+.main-container-description-main-text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.main-container-description-main-text1,
+.main-container-description-main-text2,
+.main-container-description-main-text3
+{
+  font-size: 18px;
+  line-height: 25px;
+  font-family: Monospaced, sans-serif;
+}
+.main-container-pictures {
+  display: grid;
+  margin: 50px 40px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+}
+
+.main-container-pictures-pack1,
+.main-container-pictures-pack2,
+.main-container-pictures-pack3,
+.main-container-pictures-pack4,
+.main-container-pictures-pack5,
+.main-container-pictures-pack6
+{
+  display: flex;
+  gap: 18px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.main-container-pictures-pack1__picture,
+.main-container-pictures-pack2__picture,
+.main-container-pictures-pack3__picture,
+.main-container-pictures-pack4__picture,
+.main-container-pictures-pack5__picture,
+.main-container-pictures-pack6__picture
+{
+  width: 100%;
+}
+.main-container-pictures-pack1__text,
+.main-container-pictures-pack2__text,
+.main-container-pictures-pack3__text,
+.main-container-pictures-pack4__text,
+.main-container-pictures-pack5__text,
+.main-container-pictures-pack6__text
+{
+  font-size: 14px;
+  text-decoration: underline;
+  font-family: Monospaced, sans-serif;
+  color: #008cff;
+}
+.main-container-magazine-button {
+  display: flex;
+  justify-content: center;
+}
+.main-container-magazine-button__button {
+  height: 54px;
+  margin-top: 20px;
+  width: 160px;
+  border-radius: 30px;
+  border: none;
+  font-size: 17px;
+  background-color: #2ABE80;
+  color: white;
+  font-weight: lighter;
+}
+.main-container-post-text {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.main-container-post-text__text {
+  font-family: Monospaced, sans-serif;
+  width: 82%;
+  opacity: 0.5;
+  line-height: 25px;
+  font-size: 14px;
+}
